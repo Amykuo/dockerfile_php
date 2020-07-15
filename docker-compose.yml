@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  phpnew:
+    build: ./php
+    expose:
+      - "9000"
+    container_name: phpnew
